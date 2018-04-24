@@ -1,0 +1,26 @@
+Payments report : 
+ — The shipping fees were added for the sellers
+
+Order details : 
+ — The button”print” was replaced by the button “Order form”
+ — The sellers can now send their invoices
+ — Added UPC and EAN13 management in each product details
+
+Features management : 
+ — Operators and sellers can now modify the features order
+
+Sellers management : 
+ — You can now export the orders from a seller(CSV)
+ — New legal informations
+
+Errors management :
+ — The errors now appear on the top of the backoffices (sellers and operators)
+
+Bug fixes:
+
+ — There was an error in the ticket list
+ — There was an error when we added an attached document to a ticket
+ — Fixed bug in the Origami Review system: The customer name was badly displayed
+ — Fixed bug when a seller was deleted
+ — Fixed display bug on the orders
+ — New sellers now receive the notifications

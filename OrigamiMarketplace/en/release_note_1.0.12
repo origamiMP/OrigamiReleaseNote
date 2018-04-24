@@ -1,0 +1,7 @@
+Features : 
+ — Google maps API integration
+
+Bug fix :
+ — Sellers could delete their default tax
+ — Shipping offer : Free shipping management
+ — There was an error with the Mangopay integration

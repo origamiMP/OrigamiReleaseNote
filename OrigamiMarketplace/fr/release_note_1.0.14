@@ -1,0 +1,12 @@
+Back-Office : 
+	- Ajout d'une section "Accés rapide" avec des liens suivants : "Création produit", "Création offre de transport", "Création type de transport"
+	- Les sous-menus restent ouvert lors de la navigation du back-office
+	
+Produit :
+	- Les prix spécifiques apparaissent sur la liste des offres en tant qu'opérateur
+	- Lors de l'ajout d'une variante, on peux désormais voir la liste des variantes existantes
+
+Fix de bugs :
+	- Résolution d'un bug sur l'ajout d'offre de produits en tant que vendeur
+	- Les caractéristiques ne sont plus liées au produit lorsque cela n'est pas nécessaire
+	- Les valeures custom de caractéristiques s'enregistre correctement désormais

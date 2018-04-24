@@ -1,0 +1,6 @@
+Produit : 
+	- Possibilité de modifier les élèment possibles de CKeditor pour la description produit
+	- Possibilité de changer la taxe lors de la création d'une offre
+	- Lors de la création de prix spécifique, TTC et pourcentage sont choisis par défaut
+	- Les caractéristiques sont affichés dans le bon ordre
+	- Résolution de bugs sur les offres de produits

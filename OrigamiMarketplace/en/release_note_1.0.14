@@ -1,0 +1,11 @@
+Back-Office : 
+ — New section “shortcuts” to “new product”, “new shipping offer” and “new shipping type”
+ — The sub menus stay open when browsing the backoffices
+
+Products :
+ — the specific prices are displayed in the product offers list
+
+Bug fixes :
+ — There was a bug when adding a product offer as a seller
+ — The product features are not linked to the product anymore, that was useless
+ — The custom values of the product features are saved correctly now

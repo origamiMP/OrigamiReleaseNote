@@ -1,0 +1,29 @@
+Rapport de paiement : 
+	- Les frais de port touchés par le vendeur ont été ajoutés
+
+Detail commande : 
+	- Le bouton "Imprimer" a été remplacé par le bouton "Bon de commande"
+	- Les vendeurs peuvent désormais envoyer leur facture (Un mail sera envoyé au client pour le prévenir qu'une facture est disponible)
+	- Ajout des références vendeur, de l'ean13 et de l'UPC sur chaque produit
+
+Caractéristiques : 
+	- Il est possible de modifier l'ordre des caractéristiques
+
+Page Vendeur : 
+	- Il est possible d'exporter en CSV les commandes du vendeur
+	- Des informations légales ont été ajoutées ainsi que des erreurs lorsqu'ils ne sont pas remplies (Nom gérant, Prénom gérant, pays de résidence, nationalité, date de naissance, nom de l'entreprise, mail de contact et siége sociale)
+
+
+Erreur :
+	- Des messages s'affichent désormais en haut du back office lorsque des erreurs surviennent		
+
+Résolution de bugs :
+
+	- Résolution d'une erreur sur la liste des tickets
+	- Résolution d'un bug lorsqu'on ajoute une piéce jointe à un ticket
+	- Le nom du client sur le mail de demande d'avis s'affiche correctement
+	- Résolution d'un bug sur la suppression des vendeurs
+	- Résolution d'un bug d'affichage sur les commandes (&nbsp au lieu d'un espace)
+	- Il n'est plus possible d'avoir 2 zones de livraison avec le même nom pour la même langue
+	- Les nouveaux vendeurs recoivent désormais les notifications
+	- Suppression du "Vendeur : toto" dans le tableau de bord

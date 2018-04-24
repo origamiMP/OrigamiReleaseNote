@@ -1,0 +1,10 @@
+Fonctionalités : 
+	- Intégration de Google Map afin d'avoir une autocomplétion sur les champs adresses si une clé d'api Google est renseignée
+	- Champs vendeurs supplémentaires : Ajout d'une clé et d'une description pour la configuration de ces champs
+	- Les champs pays / nationalité du back office sont désormais en autocomplétion		
+
+
+Bug fix :
+	- Enlever la possibilité aux vendeurs de supprimer leur taxe par defaut ce qui pouvait engendrer des erreurs.
+	- Offre de transport : Si le transporteur est gratuit, il ne faut désormais plus que cocher la liste des zones de livraison.
+	- Résolution d'une erreur si l'on désactive le paiement par Mangopay
