@@ -1,0 +1,25 @@
+Vendeur :
+	- Lorsqu'un nouvelle note est créer, le vendeur est directement mis à jour sur le front office
+	- Il n'est plus possible qu'un vendeur s'inscrive avec une adresse e-mail mal formattée
+
+Produit :
+	- Lorsque la première variante d'un produit est crée, si le produit contient déja une offre, cette offre est dupliquée pour la variante
+
+Import CSV :
+	- Lors de la modification d'un produit synchronisé, l'ean13 n'est plus obligatoire
+	- Lors de la modification d'un produit synchronisé, les prix ne sont plus limité à 2 chiffres aprés la virgule
+	- Lorsque l'on tente d'importer un CSV comportant des prix non numériques, l'erreur est correctement remontée
+	- Lorsque l'on tente d'importer un CSV mal formatté, l'erreur est correctement remontée
+
+Notifications :
+	- Refonte totale du système de notifications
+	- Les notifications ont été triées afin de n'être notifié qu'en cas d'actions pertinentes
+	- Il est possible de configurer vos notifications (Divers > Notifications)
+
+Tableau de bord :
+	- Le bloc "dernière commande" a été supprimé afin d'éviter la confusion le temps que cela soit implémenté
+
+Menu :
+	- L'organisation du menu de gauche a été revu afin d'être plus pertinent
+	- Sur mobile, le boutton "Accès rapide" ne bloque plus l'affichage du menu
+
