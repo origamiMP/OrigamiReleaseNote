@@ -7,11 +7,21 @@ Connecteurs :
 		- Configurer les flux entrants (synchronisation du catalogue ...)
 		- Configurer les infos nécessaires
 	- Le module Origami est désormais considéré comme un connecteur
+	- Le connecteur Origami Prestashop n'est pas modifiable par Opérateur / Vendeur
 	- Ajout du connecteur Diatly
-	- Ajout de la possibilité d'importer des produits avec Diatly
+	- Création automatique d'un feed lorsque le connecteur Diatly est activé
+	- Ajout de la possibilité d'importer des produits avec Diatly (gestion des images / variantes)
+	- Ajout de la possibilité d'importer plusieurs images par produits
+	- Ajout d'une tache récurrente qui synchronise les produits avec les différents connecteurs toutes les X minutes
+	- Ajout de la synchronisation des commandes avec Diatly
+	- Ajout de la possibilité de voir les produits synchronisés par connecteur
+	- Ajout des logs de synchronisation pour savoir quand une synchronisation a eu lieu et si elle s'est bien passée
+	- Lorsqu'un connecteur supprime un produit, son stock est mis à 0 coté Origami Marketplace
+	- Ajout du connecteur CSV
+	- Formulaire de création de feed plus intuitif
 
 Commande :
-	- La vignette sur le menu affiche désormais le nombre de commande non préparé et où aucun contact client n'a été fait
+	- La vignette sur le menu affiche désormais le nombre de commande non préparées et où aucun contact client n'a été fait
 
 Vendeurs :
 	- Le vendeur est désormais synchronisé directement sur le front office lorsqu'on l'active ou le désactive
@@ -41,3 +51,6 @@ Notification :
 
 Configuation :
 	- Résolution d'une erreur sur la configuration du module origami
+
+Service Clients :
+	- Résolution d'une erreur sur le formulaire d'envoi des reviews
