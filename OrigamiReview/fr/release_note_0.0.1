@@ -1,0 +1,57 @@
+Api :
+ 	
+	Initialisation :
+		- Initialisation du projet Laravel
+		- Ajout des librairies nécessaires
+		- Configuration du système de token OAuth
+		- Configuration du système de docker
+		- Configuration du système de Job afin de pouvoir effectuer certaines longues taches en background
+		- Ajout du docker IPFS hébergeant le deamon IPFS
+		- Ajout des différents models base de données
+		- Ajout des différents routes / Controllers
+		- Configuration du format des reponses API (json:api)
+		- Configuration du format des erreurs API
+		- Ajout des test unitaires
+
+	Reviews :
+		- Ajout de la possibilité d'envoyer un avis certifié ou non certifié
+		- Les avis sont liés à une marketplace, une commande et un vendeur
+		- Ajout du service IPFS afin de pouvoir envoyer l'avis sur IPFS
+		- Récupération du node id IPFS afin de le stocker sur la base de données local pour le moment
+		- Il n'est pas possible de modifier ou supprimer un avis
+
+	Critére :
+		- Ajout du système de critére
+		- Les opérateurs de marketplace peuvent désormais choisir quels critéres ils veulent voir apparaitre dans leur avis
+
+	Commande :
+		- Ajout de la possibilité de récupérer les informations d'une commande
+		
+	Vendeurs :
+		- Ajout de la possibilité de récupérer une liste de vendeurs
+		- Ajout de la possibilité de récupérer les information / avis d'un vendeur
+
+
+Front :
+
+	Initialisation :
+		- Initialisation du projet Laravel
+		- Ajout des librairies nécessaires
+		- Configuration du système de docker
+		- Ajout des différentes routes / Controllers
+		- Ajout d'un service permettant de communiquer avec l'api
+		- Ajout d'un parser JSON:API permettant de comprendre les retours api
+		- Ajout de la gestion des erreurs API
+		- Configuration & Initialisation de VueJS
+		- Choix et implémentation du thème bootstrap
+		- Implémentation du layout global au site (navbar / footer / code couleurs etc...)
+	
+	Review :
+		- Ajout de la possibilité d'envoyer un avis vérifié ou non vérifié en complétant les critères requis par la marketplace
+		- Intégration de Web3 afin de signer la transaction
+		- Ajout d'une modal lorsque métamask n'est pas installé
+		- Ajout d'une modal lorsque métamask n'est pas dévérouillé
+		- Ajout d'une modal lorsque la transaction n'est pas signée
+
+	Vendeur :
+		- Début d'implémentation de la page vendeur

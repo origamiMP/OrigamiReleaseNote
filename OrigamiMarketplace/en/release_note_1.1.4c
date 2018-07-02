@@ -1,0 +1,15 @@
+Connectors :
+	- Can now get discout from Diatly product import
+	- Can now link images to correct product variant
+	- Fix scalabity problems caused by massive Diatly product synchronization
+	- Fix timeout problems caused by massive Diatly product synchronization 
+
+Products :
+	- Fix bug when product is deleted but not product variant that cause duplicate reference error
+	- Can now upload multiple image by variants
+
+Sellers :
+	- Mangopay KYC documents are now visible by the operator
+
+Tickets :
+	- Fix bug when ticket seller assignement

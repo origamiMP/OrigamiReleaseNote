@@ -1,0 +1,57 @@
+Api :
+ 	
+	Bootstrap :
+		- Laravel project initialization
+		- Add mandatory libraries
+		- Oauth token system configuration
+		- Docker system configuration
+		- Job system configuration to make most time consuming task in background
+		- Add IPFS Docker that contains IPFS daemon / IPFS api
+		- Database inititalization
+		- Add some database models / routes / controllers
+		- API response format configuration (json:api)
+		- API errors format configuration
+		- Add unit testing
+
+	Reviews :
+		- Can create certified or non-certfiied reviews
+		- Review are linked to a seller / marketplacec and order
+		- Add IPFS service to send review on IPFS
+		- Get IPFS node id and put it into local database
+		- You can't update or delete a review
+
+	Criteria :
+		- Add criteria system
+		- Marketplace operators can choose which criteria they want to have on their reviews
+
+	Order :
+		- Can get order information
+
+	Seller :
+		- Can get sellers list
+		- Can get seller information
+
+Front :
+
+	Bootstrap :
+		- Laravel project initialization
+		- Add mandatory librairies
+		- Docker system configuration
+		- Add some routes / controllers
+		- Add service that handle api communication
+		- Add JSON:API parser to understand api responses
+		- Add api errors management
+		- VueJS Bootstrap & configuration
+		- Bootstrap css theme choice & integration
+		- Global site layout integration (navbar / footer / color code etc...)
+
+	Reviews :
+		- Can send cerfied or non-certified review by completing marketpalce required criteria
+		- Web3 integration in order to sign transaction
+		- Add modal when metamask is not installed
+		- Add modal when metamask is not unlocked
+		- Add modal when transation is not signed
+	
+	Sellers :
+		- Beginning of seller profile integration
+
