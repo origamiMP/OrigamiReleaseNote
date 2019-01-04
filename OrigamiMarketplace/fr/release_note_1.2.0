@@ -1,0 +1,14 @@
+Dashboard :
+	- Refonte totale du dashboard
+	- Possibilité d'éditer le dashboard en cliquant sur le boutton éditer
+	- Possibilité de déplacer / supprimer un widget
+	- Possibilité d'ajouter un widget
+	- Possibilité de configurer chaque widget indépendemment
+	- Possibilité de choisir la période des données
+	- Possibilité de choisir la période de comparaison des données
+	- Possibilité de choisir l'échelle des données
+	- Possibilité de changer la disposition des colonnes en ajoutant / supprimant un widget 'colonne' et en configurant les colonnes
+	- Des widgets seront ajoutés au fur et à mesure des mis à jour
+	- Des configurations de widgets seront ajoutés au fur et à mesure des mis à jour
+	- Un dashboard est préconcu par défaut s'il n'a jamais été édité
+
