@@ -1,0 +1,159 @@
+Highlights
+
+	- Full Customizable Dashboard
+	- Customer Back Office
+	- Event rules system
+	- Order multi currency management
+	- Mangopay Prehautorization
+	- Quotes
+	- Warehouses
+	- Seller Wallets
+	- Product State Workflow
+	- "Prestashop to Origami" prestashop module
+
+
+Details
+
+	Categories :
+		- Feat : Can limit product features to a category
+		- Feat : Can limit product attrbutes to a category
+		- Feat : Can click on category name to go on category page
+		- Ui : Add a button that link to the category page in category list
+
+	Connectors :
+		- Feat : Add configuration to let seller manage their connectors or not
+		- Feat : Add GoogleShopping connector
+		- Feat : Add ShoppingFeed connector
+		- Feat : Add Lengow connector
+		- Feat : Add Beezup connector
+		- Feat : Can manually link connector product to an existing product offer
+		- Feat : Can add external uid to connector product
+		- Feat : Limit same external url calling
+
+	Customers :
+		- Feat : New customer back office that allow B2B customer to manage their users / orders / information 
+		- Feat : An admin customer can add roles and permissions
+		- Feat : An admin customer can associate user to roles created
+
+	Custom fields :
+		- Feat : Operator can configure custom_fields for seller / product and customer
+		- Feat : Group with many custom fields can be created
+		- Feat : Custom field can be only visible by operators
+		- Feat : Operator can configure custom field type : select / multiple / textarea / input / html
+		- Feat : Custom field can be filled in seller / customer or product page
+
+	Dashboard :
+		- Feat : Dashboard is now fully customizable
+		- Feat : A default dashboard is set up
+		- Ui : Add button to edit dashboard
+		- Ui : Can move / delete widget
+		- Ui : Can add widget
+		- Ui : Can configure widgets individually
+		- Ui : Can choose data period 
+		- Ui : Can choose compare data period
+		- Ui : Can choose data scale
+		- Ui : Can change column disposition by creating / moving / deleting a "column" widget
+		- Info : More widgets will be added in future updates
+		- Info : Widget configurations will be added in future updates
+
+	Event system :
+		- Feat : New event system that allow to execute some events when conditions are fulfilled :
+			-> Example : Send a mail if an order has not been proceed in under 48 hours.
+		- Feat : Can create rules with actions and conditions
+		- Feat : Adding some conditions on products
+		- Feat : Adding some condition on orders
+		- Feat : Adding some global conditions
+		- Feat : Adding mail and notifications actions
+		- Feat : Adding SMS actions through Twilio
+		- Feat : Adding call actions through Twilio
+
+	Fees :
+		- Bug fix : "Taxable fees" option is now working
+
+	Orders :
+		- Feat : Add Mangopay prehautorization
+		- Feat : Add config to enable / disable prehautorization
+		- Feat : Add order state for prehautorization
+		- Feat : Operator / seller can refuse or accept an order
+		- Feat : Marketplace can handle multiple currencies
+		- Ui : "€" symbol has been replace by the currency iso code
+
+	Permission :
+		- Opti : Permission system has been changed to improve performances and stability
+		- Opti : Admin can configure roles with permissions
+
+	Products :
+		- Feat : Operator can configure which product navs seller can access
+		- Feat : Add product state workflow :
+			-> Waiting : Product is validation waiting by the operator
+			-> Refused : Product has been refused by the operator
+			-> Enabled : Product has been enable
+			-> Disabled : Product has been disable
+		- Feat : Operator can add message on each status update
+		- Feat : Add configuration to allow seller to delete their products or not in mono offer
+		- Ui : Add button to save product on the image tab
+		- Ui : Adding a product creation form for customer without layout that can be include on an iframe in the front office
+		- Bug fix : Error on multi offer seller product creation 
+		- Bug fix : When multi offer, sellers cannot delete products
+
+	Product features :
+		- Feat : Operator can configure which feature is the wear feature
+
+	Product offers :
+		- Ui : Add configuration for specific price management mode :
+			-> None : No specific price management
+			-> Simple : Can only configure reduction percentage
+			-> Advanced : Advanced specific price management
+
+	Reviews :
+		- Opti : Review system has been changed to improve performances and stability
+		- Feat : Operator can add criteria for seller or product reviews
+		- Ui : Add customer review page in origami back office
+
+	Shipping Offers :
+		- Feat : Operator can create global shipping offer usable by all sellers
+		- Feat : Add configuration to let seller manage their shipping offers or not
+
+	Sellers :
+		- Feat : Add wallets to sellers
+		- Feat : Sellers can see all their wallets (one wallet by psp)
+		- Feat : Sellers can add money to their wallets by credit card
+		- Feat : Add transaction history for seller wallet 
+
+	Tickets :
+		- Feat : Add ticket tags feature
+		- Feat : Operator can add / update / delete ticket tags
+		- Feat : Operator & Seller can associate tags to tickets
+		- Ui : Can sort / filter tickets by associated tags
+		- Ui : Add order status in ticket conversations	
+		- Ui : Subject is more visible on ticket list page
+		- Ui : Customer name is added to ticket list page
+
+	Vouchers :
+		- Bug fix : Voucher notifications are available in french
+		- Bug fix : Voucher are now related to orders
+
+	Warehouses :
+		- Feat : Add warehouses feature
+		- Feat : Each seller can have multiple warehouses
+		- Feat : A default warehouse is created on seller creation
+		- Feat : Can manage warehouse (create / update / delete)
+		- Feat : Operator can have its own warehouse
+		- Feat : Sellers can send product offers to an operator warehouse
+		- Feat : Can generate delivery receipt for a warehouse
+		- Feat : Operator can validate products reception
+		- Feat : Operator can configure fees profiles for its warehouses
+		- Feat : Operator can configure specific fees profiles by sellers for its warehouses
+		- Ui : Operator / Seller can see all the products in their warehouses
+
+	Other :
+		- Opti : Api Framework has been changed : From Lumen to Laravel
+		- Ui : Ajout de la possibilité d'ajouter un logo au back office Origami
+		- Ui : Add some missing translations
+		- Ui : Add drag and drop library for image / document upload
+		- Feat : Add a config for back office url
+		- Feat : Add a route to set admin token (used by front office when iframe integration)
+		- Feat : jout d'un role "Administrateur Origami" ayant accés à la configuration / moteur d'évenement de la marketplace
+		- Feat : Suppression de la gestion de certaines configuration / moteur d'évenement par l'opérateur
+		- Feat : Add a Prestashop module to importe an existing Prestashop to Origami
+

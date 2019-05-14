@@ -1,0 +1,81 @@
+Bon de réduction :
+	- Les notifications attrayant aux bons de réduction sont désormais disponible en français
+	- Les bons de réductions sont désormais remontés dans les commande
+
+Categories :
+	- Possibilité de limiter des caractéristiques à une catgéorie
+	- Possibilité de limiter des attributs de produit à une catégorie
+
+Commande :
+	- Ajout de la pré authorisation Mangopay
+	- Ajout d'une config permettant de choisir si l'on accepte la pré authorisation ou non
+	- Ajout d'un statut de commande qui correspond à l'état de pré authorisation
+	- Ajout de la possibilité de valider ou de refuser une commande
+
+Commissions :
+	- Résolution d'un bug : L'option "commission taxable" ne s'enregistrait pas
+
+Connecteurs :
+	- Ajout d'une configuration pour donner la possibilité aux vendeurs de gérer leurs connecteurs ou non
+	- Ajout du connecteur Google Shopping
+	- Ajout du connecteur ShoppingFlux
+	- Ajout du connecteur Lengow
+	- Ajout du connecteur Beezup
+	- Ajout de la possibilité de lier un produit importé à une offre de produit existante manuellement
+	- Ajout de la possibilité de spécifier un id externe au produit
+	- Ajout d'un système permettant de ne pas faire 2 fois le même callUrl dans un même laps de temps
+
+Entrepots :
+	- Ajout de la notion d'entrepots
+	- Chaque vendeur posséde 1 ou plusieurs entrepots (un entrepot est crée à la création du vendeur)
+	- Possibilité de gérer ses entrepots (Créer / Modifier / Supprimer)
+	- Possibilité de faire un sorte qu'on entrepot soit gérer par la marketplace (conciergerie)
+	- Possibilité d'envoyer des quantités de produit à un entrepot
+	- Possibilité de générer des bons de livraisons pour son entreprot
+	- Possibilité de valider la réception des produits de son entrepot
+
+Multi Devise :
+	- Ajout de la possibilité d'utiliser plusieurs devises au sein de la marketplace
+	- Le symbole "€" a été remplacer par l'iso code de la devise dans tout le back office
+
+Moteur d'événements :
+	- Ajout d'un moteur d'événement permettant d'éxécuter des actions sous certaines conditions :
+		-> Exemple : Envoyer un mail quand une commande n'a pas été traité dans les 48h
+	- Ajout de la possibilité de créer une régle comprenant des conditions ainsi que des actions
+	- Ajout de conditions sur les produits
+	- Ajout de conditions sur les commandes
+	- Ajout de conditions globales
+	- Ajout des actions MAIL / NOTIFICATION déja existante
+	- Ajout de la possibilité d'envoyer des SMS via le moteur d'événement
+	- Ajout de la possibilité de passer des appels via le moteur d'événement
+	- Ajout d'un historique des actiosn effectués par le moteur d'événement
+
+Offre de produit :
+	- Ajout d'une configuration permettant de choisir le mode de gestion des prix spécifique :
+		-> Aucun : pas de gestion de prix spécifique
+		-> Simple : remplir juste le % de réduction de la remise
+		-> Avancé : Gestion multi prix spécifique avancé
+
+Offre de transport :
+	- En tant qu'opérateur, ajout de la possibilité de créer une offre de transport pour tous les vendeur
+	- Ajout d'une configuration pour donner la possibilité aux vendeurs de gérer leurs offres de transports ou non
+
+Produits :
+	- Ajout d'une configuration pour choisir quels onglets de produit les vendeurs ont accés
+	- Ajout d'un système de statut sur les produits :
+		- Waiting : Le produit est en attente de validation par l'operateur
+		- Refused : Le produit a été réfusé par un opérateur
+		- Enabled : Le produit a été activé
+		- Disabled : Le produit a été désactivé
+	- Ajout de la possibilité d'ajouter un message à chaque changement de statut
+	- Résolution d'un bug sur l'ajout de produit en multi offre en tant que vendeur
+	- En multi offre, les vendeurs ne peuvent plus supprimer de produits
+	- Ajout d'un bouton pour enregistrer le produit sur l'onglet images
+	- Ajout d'une configuration pour permettre aux vendeurs de supprimer ou non leurs produit en mono offre
+	- Ajout d'une configuration pour changer le formulaire de création d'un produit en mode pas à pas
+
+
+Autres :
+	- Ajout d'un role "Administrateur Origami" ayant accés à la configuration / moteur d'évenement de la marketplace
+	- Suppression de la gestion de certaines configuration / moteur d'évenement par l'opérateur
+	- Ajout de la possibilité d'ajouter un logo au back office Origami

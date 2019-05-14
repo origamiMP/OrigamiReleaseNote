@@ -1,0 +1,22 @@
+Tickets :
+	- Add ticket tags feature
+	- Operator can add / update / delete ticket tags
+	- Operator & Seller can associate tags to tickets
+	- Can sort / filter tickets by associated tags
+
+Customers :
+	- New customer back office that allow B2B customer to manage their users / orders / information 
+	- An admin customer can add roles and permissions
+	- An admin customer can associate user to roles created
+
+Event system :
+	- New event system that allow to execute some events when conditions are fulfilled :
+		-> Example : Send a mail if an order has not been proceed in under 48 hours.
+	- Can create rules with actions and conditions
+	- Adding some conditions on products
+	- Adding some condition on orders
+	- Adding some global conditions
+	- Adding mail and notifications actions
+	- Adding SMS actions through Twilio
+	- Adding call actions through Twilio
+
