@@ -1,0 +1,116 @@
+Highlights
+
+	- Origami Module system (Boxtal / Twilio / FreightOS / Mangopay module integration)
+	- Quote system
+	- Product return system
+	- Product family system
+	- Simplified view for C2C mode
+	- Mail template system reworked to notification template system
+	- User group system reworking
+
+
+Details
+
+	Categories :
+		- Feat : Operator can now configure different root category for operator & seller
+		- Feat : Can associate attributes / features to a category
+		- Bug fix : Paginate product list to avoid timeout on show category
+		
+	Connectors (OrigamiPrestashop) :
+		- Feat : Add Call url for user creation
+
+	Custom fields :
+		- Feat : Can create custom field groups
+		- Feat : Add custom field on products
+		- Feat : Add custom field on attribute values
+		- Feat : Add custom field on features
+
+	Event system :
+		- Feat : Add "!=" operator for conditions
+		- Opti : Add event system log to know wich events / actions were trigger when
+		- Feat : Operator can specify if an action must be trigger once or always
+
+	Modules (Mangopay) :
+		- Opti : Integrate Mangopay as an Origami Module
+		- Feat : Users can now see their wallets
+		- Feat : Users can now add money to their wallets
+		- Feat : Users can now withdraw money from their wallets to their bank accounts
+		- Feat : Integrate Mangopay Hooks
+
+	Modules (Twilio) :
+		- Feat : Users can now validated their phone number
+		- Feat : Operator can now send sms or calls to users with event system and Twilio
+	
+	Modules (FreightOS) :
+		- Feat : FreightOS module integration
+		- Feat : Can quote shipping with FreightOS
+
+	Modules (Boxtal) :
+		- Feat : Integrate boxtal as module
+		- Feat : Can create boxtal shipping label
+		- Feat : Can get boxtal shipping label url
+		- Feat : Push url for multiple boxtal event
+		- Feat : Change order to shipped when shipping label is created
+
+	Notifications :
+		- Feat : Rework of mail template system to integrate Sms template and Call template
+		- Feat : Fusion mail template / sms template and call template system to a global notification system
+		- Feat : Operator can now see all sent notifications (sms / calls / emails)
+		- Feat : Add ide to mail template creation to configure template with html
+
+
+	Orders :
+		- Feat : Add quote system
+		- Feat : Beginning of payment request system
+		- Feat : Can ask for payment request on an order with missing payment
+		- Feat : Can see all sent notifications (mails / sms / calls)
+		- Feat : Sellers can now ask and download a shipping label when order is not shipped yet
+		- Feat : Customers can now ask for returns when order is delivered
+		- Feat : Customers can now ask and download a shipping label for their order returns
+
+	Order State :
+		- Feat : Add order state for delivered in relay and delivered in office
+		- Feat : User groups can personalize order state color and text
+
+	Products :
+		- Opti : Simplified product creation view for C2C
+		- Bug fix : Cannot have duplicate product state anymore
+		- Feat : Operator can configure product families the same way as categories
+		- Feat : Can crop and rotate images
+
+	Reviews :
+		- Feat : Operator can configure critieria for their reviews
+		- Feat : Operator can add weight to their review criteria
+
+	Role : 
+		- Feat : Can create custom role and subroles by user group
+		- Feat : User group can add color to a custom role
+		- Opti : Role permission page has been simplified
+
+	
+	Sellers :
+		- Feat : Operator can create sellers
+		- Feat : Customers can create sellers with visibilities
+
+	Ticket :
+		- Feat : Add simplified view for C2C mode
+
+	Users :
+		- Feat : Operator can add user to a user group
+		- Feat : Users can now vaidate their email
+		- Opti : Split name into firstname and lastname
+
+	User group :
+		- Feat : Complete rework of user group system
+		- Feat : A user can be in multiple user group
+		- Feat : Operator is now a user group
+		- Feat : Add "Netflix like" profile choice for Origami connection
+		- Feat : User can switch environment
+		- Feat : User groups can now vaidate their email
+
+	Warehouse fulfillment :
+		- Feat : Warehouse fulfillment management
+		- Feat : Operator can set a warehouse as fulfillment
+		- Feat : Sellers can send their product to a warehouse fulfillment
+		- Feat : Operator can received product from seller into its fulfillment and complete with photos
+
