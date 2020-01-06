@@ -64,7 +64,6 @@
 * Feat : Log for the notifications
 
 ## Orders :
-* Feat : Fix prod
 * Feat : In case of relay delivery, display the relay informations instead of shipping address
 * Fix : Fix random multiple payment on order seller
 * Feat : Enhance communication between seller & customers
